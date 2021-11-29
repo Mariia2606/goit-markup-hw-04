@@ -30,12 +30,10 @@
         <nav>
           <ul class="header-navigation list">
             <li class="header-item">
-              <a class="header-link link" href="./index.html">Студия</a>
+              <a class="header-link link current" href="">Студия</a>
             </li>
             <li class="header-item">
-              <a class="header-link link current" href="./portfolio.html"
-                >Портфолио</a
-              >
+              <a class="header-link link" href="./portfolio.html">Портфолио</a>
             </li>
             <li class="header-item">
               <a class="header-link link" href="">Контакты</a>
@@ -45,12 +43,16 @@
         <div class="header-conect">
           <ul class="list contact-conteiner">
             <li class="header-item">
-              <a class="header-mail link" href="mailto:info@devstudio.com"
+              <a class="header-mail link" href="mailto:info@devstudio.com">
+                <svg class="mail-link" width="16" height="12">
+                  <use href="./images/icons.svg#icon-envelope"></use></svg
                 >info@devstudio.com</a
               >
             </li>
             <li class="header-item">
               <a class="header-tel link" href="tel:+380961111111"
+                ><svg class="telephon-link" width="10" height="16">
+                  <use href="./images/icons.svg#icon-smartphone"></use></svg
                 >+38 096 111 11 11</a
               >
             </li>
@@ -197,28 +199,63 @@
     </main>
 
     <footer>
-      <div class="container footer-conteiner">
-        <div class="footerweblogo">
-          <a class="footerlogo" href="./index.html">
-            <span class="weblogo">Web</span>Studio</a
-          >
-        </div>
-        <address class="address">
-          <p class="address-text">г. Киев, пр-т Леси Украинки, 26</p>
-          <ul class="list">
-            <li class="footer-item">
-              <a class="footer-conacts link" href="mailto:info@example.com"
-                >info@example.com</a
-              >
-            </li>
-            <li>
-              <a class="footer-conacts link" href="tel:+380991111111"
-                >+38 099 111 11 11</a
-              >
-            </li>
-          </ul>
-        </address>
+      <div class="conteiner footer-conteiner">
+        <ul class="footer-weblogo-sociallink">
+          <li>
+            <div class="footerweblogo">
+              <a class="footerlogo" href="./index.html">
+                <span class="weblogo">Web</span>Studio</a>
+            </div>
+            <address class="address">
+              <p class="address-text">г. Киев, пр-т Леси Украинки, 26</p>
+              <ul class="list">
+                <li class="footer-item">
+                  <a class="footer-conacts link" href="mailto:info@example.com">info@example.com</a>
+                </li>
+                <li>
+                  <a class="footer-conacts link" href="tel:+380991111111">+38 099 111 11 11</a>
+                </li>
+              </ul>
+            </address>
+          </li>
+          <li>
+            <h3 class="footer-tittle">присоединяйтесь</h3>
+            <ul class="footer-social-list list">
+              <li class="footer-sicial-item">
+                <a href="" class="footer-social-link">
+                  <svg class="footer-sicial-icon" width="20" height="20">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-sicial-item">
+                <a href="" class="footer-social-link">
+                  <svg class="footer-sicial-icon" width="20" height="20">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-sicial-item">
+                <a href="" class="footer-social-link">
+                  <svg class="footer-sicial-icon" width="20" height="20">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-sicial-item">
+                <a href="" class="footer-social-link">
+                  <svg class="footer-sicial-icon" width="20" height="20">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
       </div>
+      </div>
+    
     </footer>
-  </body>
-</html>
+    </body>
+    
+    </html>
