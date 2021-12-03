@@ -85,12 +85,13 @@ body {
 }
 .header {
   background-color: var(--second-title-color--);
+   border-bottom: 1px solid #ECECEC;
 }
 .header-conteiner { 
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid #ECECEC;
+ 
 }
 .header-navigation {
   display: flex;
@@ -115,7 +116,8 @@ body {
 
 .header-item {
   margin-right: 50px;
-  display: block;
+  display: flex;
+  align-items: center;
 }
 .header-item:last-child {
   margin-right: 0;
@@ -145,6 +147,7 @@ body {
   color: var(--text-color--);
   padding-top: 35px;
     padding-bottom: 35px;
+    justify-content: center;
 }
 
 .header-mail:hover,
@@ -177,6 +180,8 @@ body {
   text-align: center;
   padding-bottom: 200px;
   padding-top: 200px;
+  width: 1600px;
+
 }
 
 .hero-title {
@@ -187,6 +192,7 @@ body {
   line-height: 60px;
   width: 696px;
   margin: 0 auto;
+  
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -272,9 +278,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-
+ padding-bottom: 35px;
+      padding-top: 35px;
   background-color: var(--feature-bg--);
   color: var(--social-link--);
+  margin-bottom: 30px;
 }
 
 /*-------------WORK---------------*/
@@ -354,6 +362,7 @@ body {
   width: 44px;
   height: 44px;
   margin-right: 10px;
+     
 }
 .comand-sicial-item:last-child {
   margin-right: 0;
@@ -449,6 +458,8 @@ body {
 
 .footer-conteiner {
   background-color: var(--second-bg-color--);
+  padding-top: 64px;
+    padding-bottom: 64px;
 }
 
 .address-text {
@@ -490,8 +501,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--second-title-color--);
-  display: flex;
-  margin-bottom: 10 px;
+  
 }
 
 .footer-sicial-item {
@@ -505,12 +515,13 @@ body {
 .footer-social-link {
   width: 100%;
   height: 100%;
-  display: flex;
+display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
 background: rgba(255, 255, 255, 0.1);; 
   color: var(--second-title-color--);
+   
 }
 .footer-sicial-icon {
   fill: currentColor;
@@ -523,6 +534,13 @@ background: rgba(255, 255, 255, 0.1);;
   background-color: var(--acent-color--);
   color: var(--second-title-color--);
 }
+.footer-social-list {
+  display: flex;
+}
+
+.join {
+  display: flex;
+}
 /*
 .comand-sicial-icon:hover,
 .comand-sicial-icon:focus {
@@ -530,12 +548,15 @@ background: rgba(255, 255, 255, 0.1);;
 }
 */
 
+
+
 .footer-social-list {
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
-.footer-weblogo-sociallink {
+.herna
+{
   display: flex;
 }
 /*--------------POTFOLIO---------*/
@@ -550,6 +571,17 @@ background: rgba(255, 255, 255, 0.1);;
   justify-content: center;
   margin-bottom: 55px;
 }
+ 
+.project-link:hover,
+
+.project-link:focus {
+
+background: #FFFFFF;
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 
 .button-list {
   font-family: inherit;
@@ -574,12 +606,17 @@ background: rgba(255, 255, 255, 0.1);;
 }
 
 .button-list:hover,
+ 
 .button-list:focus {
   background: var(--acent-color--);
   color: var(--second-title-color--);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
+.botton-flex .button-list.current {
+    background: var(--acent-color--);
+  color: var(--second-title-color--);
+}
 /*projects*/
 
 .project-title {
@@ -599,10 +636,8 @@ background: rgba(255, 255, 255, 0.1);;
   margin-top: 5px;
 }
 
-.button .button-list.current {
-  background: var(--acent-color--);
-  color: var(--second-title-color--);
-}
+
+
 .project-card {
   display: flex;
   flex-wrap: wrap;
@@ -633,6 +668,7 @@ background: rgba(255, 255, 255, 0.1);;
   border-bottom: 1px solid var(--bg-portfolio--);
 }
 .project-item:hover,
+
 .project-item:focus {
 
 background: #FFFFFF;
