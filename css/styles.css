@@ -129,6 +129,7 @@ body {
 .header-navigation .header-link.current {
   color: var(--acent-color--);
 }
+
 .header-mail {
   font-weight: 500;
   font-size: 14px;
@@ -460,8 +461,11 @@ body {
   background-color: var(--second-bg-color--);
   padding-top: 64px;
     padding-bottom: 64px;
+    
 }
-
+.div-flex {
+  display: flex;
+}
 .address-text {
   font-style: normal;
   font-size: 14px;
@@ -480,12 +484,14 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-contact-color);
+  display: flex;
+  margin-bottom: 9px;
 }
 .footer-item {
   margin-bottom: 10px;
 }
 .footer-conacts:last-child {
-  padding-bottom: 0;
+  margin-bottom:0;
 }
 .footer-conacts:hover,
 .footer-conacts:focus {
@@ -501,7 +507,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--second-title-color--);
-  
+  display: flex;
+      margin-top: 8px;
 }
 
 .footer-sicial-item {
@@ -540,7 +547,9 @@ background: rgba(255, 255, 255, 0.1);;
 
 .join {
   display: flex;
+  flex-direction: column;
 }
+ 
 /*
 .comand-sicial-icon:hover,
 .comand-sicial-icon:focus {
