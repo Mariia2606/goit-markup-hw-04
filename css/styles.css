@@ -476,7 +476,7 @@ body {
 }
 .footerweblogo {
   margin-bottom: 20px;
-  margin-right: 215px;
+
 }
 .footer-conacts {
   font-style: normal;
@@ -549,7 +549,9 @@ background: rgba(255, 255, 255, 0.1);;
   display: flex;
   flex-direction: column;
 }
- 
+ .footer-adress {
+   margin-right: 70px;
+ }
 /*
 .comand-sicial-icon:hover,
 .comand-sicial-icon:focus {
