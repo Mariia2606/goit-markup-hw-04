@@ -35,6 +35,8 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+
 .conteiner {
   width: 1200px;
   padding-left: 15px;
@@ -71,6 +73,7 @@ body {
   color: var(--second-title-color--);
   text-decoration: none;
   margin-bottom: 20px;
+  display: block;
 }
 .weblogo {
   color: var(--acent-color--);
@@ -137,8 +140,8 @@ body {
   letter-spacing: 0.02em;
   
   color: var(--text-color--);
-  padding-top: 35px;
-    padding-bottom: 35px;
+  padding-top: 33px;
+    padding-bottom: 33px;
 }
 .header-tel {
   font-weight: 500;
@@ -465,19 +468,18 @@ body {
 }
 .div-flex {
   display: flex;
+  align-items: baseline;
 }
+
 .address-text {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--second-title-color--);
-  margin-bottom: 10px;
+  margin-bottom: 9px;
 }
-.footerweblogo {
-  margin-bottom: 20px;
 
-}
 .footer-conacts {
   font-style: normal;
   font-size: 14px;
@@ -508,7 +510,7 @@ body {
   text-transform: uppercase;
   color: var(--second-title-color--);
   display: flex;
-      margin-top: 8px;
+    
 }
 
 .footer-sicial-item {
@@ -548,6 +550,7 @@ background: rgba(255, 255, 255, 0.1);;
 .join {
   display: flex;
   flex-direction: column;
+  
 }
  .footer-adress {
    margin-right: 70px;
@@ -566,10 +569,7 @@ background: rgba(255, 255, 255, 0.1);;
   justify-content: center;
   margin-top: 20px;
 }
-.herna
-{
-  display: flex;
-}
+
 /*--------------POTFOLIO---------*/
 /*Bottoms*/
 .header-navigation .header-link.current {
@@ -582,9 +582,11 @@ background: rgba(255, 255, 255, 0.1);;
   justify-content: center;
   margin-bottom: 55px;
 }
- 
-.project-link:hover,
 
+ .project-link {
+   text-decoration: none;
+ }
+.project-link:hover,
 .project-link:focus {
 
 background: #FFFFFF;
@@ -678,10 +680,9 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
   border-right: 1px solid var(--bg-portfolio--);
   border-bottom: 1px solid var(--bg-portfolio--);
 }
+
 .project-item:hover,
-
 .project-item:focus {
-
 background: #FFFFFF;
 border: 1px solid #EEEEEE;
 box-sizing: border-box;
